@@ -149,7 +149,7 @@ function render() {
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero__content">
           <p class="eyebrow">Marketing and Public Relations Specialist</p>
-          <h1 id="hero-title">I make complex marketing clear.</h1>
+          <h1 id="hero-title">PR Instincts. Marketing Engine.</h1>
           <p class="hero__intro">${profile.intro}</p>
           <div class="hero__actions">
             <a class="button button--primary" href="#work">View impact</a>
