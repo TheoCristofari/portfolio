@@ -135,8 +135,7 @@ function render() {
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="#top" aria-label="${profile.name} home">
-          <span class="brand__mark">T</span>
-          <span>${profile.name}</span>
+          <img src="/theocristofari-logo.png" alt="${profile.name}" />
         </a>
         <nav aria-label="Primary navigation">
           <a href="#work">Work</a>
@@ -150,7 +149,7 @@ function render() {
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero__content">
           <p class="eyebrow">Marketing and Public Relations Specialist</p>
-          <h1 id="hero-title">${profile.name} builds authority through content.</h1>
+          <h1 id="hero-title">I turn complex expertise into marketing that grows demand.</h1>
           <p class="hero__intro">${profile.intro}</p>
           <div class="hero__actions">
             <a class="button button--primary" href="#work">View impact</a>

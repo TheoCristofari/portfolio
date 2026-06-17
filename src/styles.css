@@ -65,18 +65,13 @@ button {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.65rem;
-  font-weight: 800;
+  width: min(18rem, 58vw);
 }
 
-.brand__mark {
-  display: grid;
-  width: 2.25rem;
-  height: 2.25rem;
-  place-items: center;
-  border-radius: 50%;
-  color: white;
-  background: var(--ink);
+.brand img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 nav {
