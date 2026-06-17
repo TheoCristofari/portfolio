@@ -149,7 +149,7 @@ function render() {
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero__content">
-          <p class="eyebrow">${profile.location} / ${profile.role}</p>
+          <p class="eyebrow">Marketing and Public Relations Specialist</p>
           <h1 id="hero-title">${profile.name} builds authority through content.</h1>
           <p class="hero__intro">${profile.intro}</p>
           <div class="hero__actions">
