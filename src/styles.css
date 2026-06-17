@@ -45,14 +45,19 @@ button {
   position: sticky;
   top: 0;
   z-index: 10;
+  border-bottom: 1px solid rgba(222, 216, 203, 0.76);
+  backdrop-filter: blur(18px);
+  background: rgba(247, 244, 237, 0.82);
+}
+
+.site-header__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1rem clamp(1rem, 4vw, 3rem);
-  border-bottom: 1px solid rgba(222, 216, 203, 0.76);
-  backdrop-filter: blur(18px);
-  background: rgba(247, 244, 237, 0.82);
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 1rem 0;
 }
 
 .brand {
@@ -387,7 +392,7 @@ h3 {
 }
 
 @media (max-width: 620px) {
-  .site-header {
+  .site-header__inner {
     align-items: flex-start;
     flex-direction: column;
   }

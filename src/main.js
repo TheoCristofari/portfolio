@@ -133,15 +133,17 @@ function render() {
 
   app.innerHTML = `
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="${profile.name} home">
-        <span class="brand__mark">T</span>
-        <span>${profile.name}</span>
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#approach">Approach</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="site-header__inner">
+        <a class="brand" href="#top" aria-label="${profile.name} home">
+          <span class="brand__mark">T</span>
+          <span>${profile.name}</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#work">Work</a>
+          <a href="#approach">Approach</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <main id="top">
