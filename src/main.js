@@ -1,67 +1,107 @@
 import './styles.css';
 
 const profile = {
-  name: 'Theo',
-  role: 'Product-minded builder',
-  location: 'London',
-  email: 'hello@example.com',
+  name: 'Théo Cristofari',
+  role: 'B2B marketing specialist',
+  location: 'Haslemere, UK',
+  email: 'theo.cristofari@gmail.com',
   intro:
-    'I design and build small, sharp digital products that make complex work feel calmer, faster, and more human.',
-  availability: 'Available for select product, design, and frontend collaborations.',
+    'I turn complex specialist knowledge into clear campaigns, content and channels that build authority, engagement and qualified demand.',
+  availability:
+    'Currently Head of PR & Marketing at Business Expert Ltd, leading integrated marketing across four financial-services websites.',
 };
 
 const work = [
   {
-    title: 'Orbit',
-    type: 'Product',
-    year: '2026',
-    status: 'Live app',
-    tags: ['Product', 'Frontend', 'Systems'],
+    title: 'Business Expert Ltd',
+    type: 'Current role',
+    year: '2021 - Present',
+    status: 'Head of PR & Marketing',
+    tags: ['B2B', 'Content', 'Lead Gen'],
     summary:
-      'A focused workspace for organizing private boards, synced state, and lightweight authenticated workflows.',
+      'Lead integrated marketing and PR across four financial services websites, shaping content, campaigns, social, email and lead-generation journeys.',
   },
   {
-    title: 'Signal Room',
-    type: 'Interface',
-    year: '2025',
-    status: 'Prototype',
-    tags: ['UX', 'Data', 'Prototype'],
+    title: 'YouTube Growth Channel',
+    type: 'Acquisition',
+    year: 'Ongoing',
+    status: '~25k monthly views',
+    tags: ['Video', 'Content', 'Growth'],
     summary:
-      'A compact operations dashboard for turning scattered updates into a scan-friendly daily command view.',
+      'Built and scaled a YouTube channel into a major acquisition route through positioning, scripts, topic planning and promotion.',
   },
   {
-    title: 'Atlas Notes',
-    type: 'Tool',
-    year: '2025',
-    status: 'Concept',
-    tags: ['Writing', 'Research', 'Frontend'],
+    title: 'LinkedIn Audience Build',
+    type: 'Social strategy',
+    year: 'Ongoing',
+    status: '0 to 7,000+ followers',
+    tags: ['LinkedIn', 'Thought Leadership', 'Growth'],
     summary:
-      'A research notebook concept built around trails, sources, and the quiet satisfaction of finding the thread.',
+      'Developed clear content themes and publishing rhythms that improved reach, traffic and qualified engagement.',
+  },
+  {
+    title: 'Currency Expert Lifecycle',
+    type: 'Website marketing',
+    year: 'Ongoing',
+    status: 'SEO, CRO and content',
+    tags: ['SEO', 'CRO', 'Lead Gen'],
+    summary:
+      'Oversaw positioning, website optimisation, educational assets and product promotion for a specialist financial-services brand.',
+  },
+  {
+    title: 'CRM & Email Automation',
+    type: 'Lifecycle',
+    year: 'Ongoing',
+    status: 'Nurture workflows',
+    tags: ['CRM', 'Email', 'Automation'],
+    summary:
+      'Built segmentation and automation workflows to improve lead nurturing, campaign visibility and follow-up performance.',
+  },
+  {
+    title: 'Public Stakeholder Comms',
+    type: 'Previous experience',
+    year: '2015 - 2020',
+    status: 'PR and reputation',
+    tags: ['PR', 'Stakeholders', 'Messaging'],
+    summary:
+      'Led communications for high-visibility public projects, translating technical, regulatory and sensitive topics into clear narratives.',
   },
 ];
 
 const capabilities = [
-  'Frontend prototyping',
-  'Product direction',
-  'Interface systems',
-  'Responsive web apps',
-  'Interaction design',
-  'AI-assisted workflows',
+  'B2B content marketing',
+  'Thought leadership',
+  'Lead generation',
+  'Copywriting and brand voice',
+  'Technical topic translation',
+  'LinkedIn content strategy',
+  'Email nurture strategy',
+  'CRM and automation',
+  'SEO and content optimisation',
+  'Paid media execution',
+  'Marketing analytics',
+  'PR and media relations',
 ];
 
 const principles = [
   {
-    title: 'Useful first',
-    text: 'Every surface should help someone do a real thing with less friction.',
+    title: 'Make expertise legible',
+    text: 'Specialist knowledge becomes valuable when audiences can understand, trust and act on it.',
   },
   {
-    title: 'Polished, not precious',
-    text: 'Details matter most when they make the product clearer, faster, or easier to trust.',
+    title: 'Connect the channel mix',
+    text: 'PR, content, social, video, email and web work best when they reinforce one clear commercial story.',
   },
   {
-    title: 'Small loops',
-    text: 'The best work gets better through visible iterations, not giant reveals.',
+    title: 'Measure what moves',
+    text: 'Strong campaigns balance editorial judgement with visibility into traffic, engagement and conversion quality.',
   },
+];
+
+const metrics = [
+  { value: '4', label: 'Financial-services websites led' },
+  { value: '~25k', label: 'Monthly YouTube views built' },
+  { value: '7,000+', label: 'LinkedIn audience grown from zero' },
 ];
 
 const app = document.querySelector('#app');
@@ -108,24 +148,37 @@ function render() {
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero__content">
           <p class="eyebrow">${profile.location} / ${profile.role}</p>
-          <h1 id="hero-title">${profile.name} builds thoughtful web products.</h1>
+          <h1 id="hero-title">${profile.name} builds authority through content.</h1>
           <p class="hero__intro">${profile.intro}</p>
           <div class="hero__actions">
-            <a class="button button--primary" href="#work">View work</a>
+            <a class="button button--primary" href="#work">View impact</a>
             <a class="button button--secondary" href="mailto:${profile.email}">Start a conversation</a>
           </div>
         </div>
         <aside class="hero-panel" aria-label="Current focus">
           <span>Current focus</span>
-          <strong>Clean tools, clear systems, and interfaces that feel good to return to.</strong>
+          <strong>Integrated B2B marketing for complex, trust-led sectors.</strong>
           <p>${profile.availability}</p>
         </aside>
       </section>
 
+      <section class="metrics" aria-label="Selected marketing results">
+        ${metrics
+          .map(
+            (item) => `
+              <div class="metric">
+                <strong>${item.value}</strong>
+                <span>${item.label}</span>
+              </div>
+            `,
+          )
+          .join('')}
+      </section>
+
       <section class="section section--work" id="work" aria-labelledby="work-title">
         <div class="section__header">
-          <p class="eyebrow">Selected work</p>
-          <h2 id="work-title">Projects with a point of view.</h2>
+          <p class="eyebrow">Selected impact</p>
+          <h2 id="work-title">Marketing work that turns complexity into demand.</h2>
         </div>
         <div class="filter-bar" role="group" aria-label="Filter projects">
           ${tags
@@ -146,7 +199,7 @@ function render() {
       <section class="section split-section" aria-labelledby="capabilities-title">
         <div>
           <p class="eyebrow">Capabilities</p>
-          <h2 id="capabilities-title">From first shape to finished surface.</h2>
+          <h2 id="capabilities-title">Strategy, content and channels in one loop.</h2>
         </div>
         <div class="capability-list">
           ${capabilities.map((item) => `<span>${item}</span>`).join('')}
@@ -156,7 +209,7 @@ function render() {
       <section class="section" id="approach" aria-labelledby="approach-title">
         <div class="section__header">
           <p class="eyebrow">Approach</p>
-          <h2 id="approach-title">How the work tends to move.</h2>
+          <h2 id="approach-title">How the work gets sharper.</h2>
         </div>
         <div class="principle-grid">
           ${principles
@@ -174,7 +227,7 @@ function render() {
 
       <section class="contact" id="contact" aria-labelledby="contact-title">
         <p class="eyebrow">Contact</p>
-        <h2 id="contact-title">Have something small, strange, or ambitious to build?</h2>
+        <h2 id="contact-title">Need complex expertise turned into clearer marketing?</h2>
         <a class="button button--primary" href="mailto:${profile.email}">${profile.email}</a>
       </section>
     </main>
