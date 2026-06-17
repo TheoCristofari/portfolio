@@ -65,7 +65,7 @@ button {
 .brand {
   display: inline-flex;
   align-items: center;
-  width: min(18rem, 58vw);
+  width: min(9rem, 58vw);
 }
 
 .brand img {
