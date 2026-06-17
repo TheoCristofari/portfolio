@@ -156,10 +156,15 @@ function render() {
             <a class="button button--secondary" href="mailto:${profile.email}">Start a conversation</a>
           </div>
         </div>
-        <aside class="hero-panel" aria-label="Current focus">
-          <span>Current focus</span>
-          <strong>Integrated B2B marketing for complex, trust-led sectors.</strong>
-          <p>${profile.availability}</p>
+        <aside class="hero-aside" aria-label="Profile and current focus">
+          <div class="hero-portrait">
+            <img src="/theo-cristofari.jpg" alt="Portrait of ${profile.name}" />
+          </div>
+          <div class="hero-panel">
+            <span>Current focus</span>
+            <strong>Integrated B2B marketing for complex, trust-led sectors.</strong>
+            <p>${profile.availability}</p>
+          </div>
         </aside>
       </section>
 
