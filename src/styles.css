@@ -386,6 +386,7 @@ h3 {
 
 .project-card__brow {
   margin-bottom: 0.75rem;
+  color: var(--accent-dark);
 }
 
 .project-card p,
