@@ -129,8 +129,6 @@ function renderWork(filter = 'All') {
 }
 
 function render() {
-  const tags = ['All', ...new Set(work.flatMap((item) => item.tags))];
-
   app.innerHTML = `
     <header class="site-header">
       <div class="site-header__inner">
@@ -192,17 +190,6 @@ function render() {
           <p class="eyebrow">Selected impact</p>
           <h2 id="work-title">Marketing work that turns complexity into demand.</h2>
         </div>
-        <div class="filter-bar" role="group" aria-label="Filter projects">
-          ${tags
-            .map(
-              (tag, index) => `
-                <button class="filter-button${index === 0 ? ' is-active' : ''}" type="button" data-filter="${tag}">
-                  ${tag}
-                </button>
-              `,
-            )
-            .join('')}
-        </div>
         <div class="project-grid" id="project-grid">
           ${renderWork()}
         </div>
@@ -245,13 +232,6 @@ function render() {
     </main>
   `;
 
-  document.querySelectorAll('.filter-button').forEach((button) => {
-    button.addEventListener('click', () => {
-      document.querySelectorAll('.filter-button').forEach((item) => item.classList.remove('is-active'));
-      button.classList.add('is-active');
-      document.querySelector('#project-grid').innerHTML = renderWork(button.dataset.filter);
-    });
-  });
 }
 
 render();
