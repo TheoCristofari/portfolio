@@ -20,7 +20,7 @@ const work = [
     tags: ['B2B', 'Content', 'Lead Gen'],
     image: '/business-expert-impact.png',
     summary:
-      'Lead integrated marketing and PR across four financial services websites, shaping content, campaigns, social, email and lead-generation journeys.',
+      'Leading integrated marketing and PR across four financial services websites, shaping content, campaigns, social, email and lead-generation journeys.',
   },
   {
     title: 'YouTube Growth Channel',
