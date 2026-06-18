@@ -18,9 +18,9 @@ const work = [
     year: '2021 - Present',
     status: 'Head of PR & Marketing',
     tags: ['B2B', 'Content', 'Lead Gen'],
-    image: '/business-expert-impact-360.png',
+    image: '/business-expert-card-native-1x.png',
     imageSrcSet:
-      '/business-expert-impact-360.png 360w, /business-expert-impact-720.png 720w',
+      '/business-expert-card-native-1x.png 1x, /business-expert-card-native-2x.png 2x',
     hasLink: true,
     summary:
       'Leading Business Expert’s 360 marketing approach, spanning content strategy, PR, social, email, YouTube, UX and lead-generation journeys.',
@@ -42,9 +42,9 @@ const work = [
     year: 'Ongoing',
     status: '0 to 7,000+ followers',
     tags: ['LinkedIn', 'Thought Leadership', 'Growth'],
-    image: '/linkedin-audience-impact-360.png',
+    image: '/linkedin-audience-card-native-1x.png',
     imageSrcSet:
-      '/linkedin-audience-impact-360.png 360w, /linkedin-audience-impact-720.png 720w',
+      '/linkedin-audience-card-native-1x.png 1x, /linkedin-audience-card-native-2x.png 2x',
     hasLink: true,
     summary:
       'Developed clear content themes and publishing rhythms that improved reach, traffic and qualified engagement.',
@@ -55,9 +55,9 @@ const work = [
     year: 'Ongoing',
     status: 'SEO, CRO and content',
     tags: ['SEO', 'CRO', 'Lead Gen'],
-    image: '/currency-expert-impact-360.png',
+    image: '/currency-expert-card-native-1x.png',
     imageSrcSet:
-      '/currency-expert-impact-360.png 360w, /currency-expert-impact-720.png 720w',
+      '/currency-expert-card-native-1x.png 1x, /currency-expert-card-native-2x.png 2x',
     hasLink: true,
     summary:
       'Designed the Currency Expert website from scratch, shaping the structure, UX, positioning and educational content.',
@@ -129,7 +129,7 @@ function renderWork(filter = 'All') {
           <div class="project-card__media" aria-hidden="true">
             ${
               item.image
-                ? `<img src="${item.image}" ${item.imageSrcSet ? `srcset="${item.imageSrcSet}" sizes="(max-width: 860px) calc(100vw - 2rem), 361px"` : ''} alt="" />`
+                ? `<img src="${item.image}" ${item.imageSrcSet ? `srcset="${item.imageSrcSet}"` : ''} alt="" />`
                 : ''
             }
           </div>
