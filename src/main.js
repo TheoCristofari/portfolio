@@ -99,9 +99,9 @@ const principles = [
 ];
 
 const metrics = [
-  { value: '4', label: 'Financial-services websites led' },
-  { value: '~25k', label: 'Monthly YouTube views built' },
-  { value: '7,000+', label: 'LinkedIn audience grown from zero' },
+  { value: '4', label: 'Financial-Services Websites Led' },
+  { value: '25,000+', label: 'Monthly YouTube Views Built' },
+  { value: '7,000+', label: 'LinkedIn Audience Grown From Zero' },
 ];
 
 const app = document.querySelector('#app');
@@ -156,7 +156,7 @@ function render() {
           <p class="hero__intro">${profile.intro}</p>
           <div class="hero__actions">
             <a class="button button--primary" href="#work">My Work</a>
-            <a class="button button--secondary" href="mailto:${profile.email}">Contact</a>
+            <a class="button button--secondary" href="#contact">Contact</a>
           </div>
         </div>
         <aside class="hero-aside" aria-label="Profile portrait">
