@@ -145,6 +145,7 @@ h3 {
 
 .hero__intro {
   max-width: 40rem;
+  margin-bottom: 1.25rem;
   color: var(--muted);
   font-size: clamp(1.1rem, 2vw, 1.35rem);
   line-height: 1.6;
@@ -154,7 +155,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 .button {
@@ -190,6 +191,7 @@ h3 {
   display: grid;
   gap: 1rem;
   justify-items: center;
+  align-self: center;
 }
 
 .hero-portrait {
@@ -212,7 +214,7 @@ h3 {
 }
 
 .hero-panel {
-  width: 100%;
+  width: min(100%, 36rem);
   padding: 1.35rem;
   border: 1px solid var(--line);
   border-radius: 8px;
