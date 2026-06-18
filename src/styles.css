@@ -96,7 +96,7 @@ main {
   grid-template-columns: minmax(0, 1fr) minmax(16rem, 20rem);
   gap: clamp(3rem, 8vw, 7rem);
   align-items: center;
-  min-height: calc(100vh - 4.5rem - 72px);
+  min-height: calc(100vh - 4.5rem - 124px);
   padding: clamp(4rem, 10vw, 8rem) 0 3rem;
 }
 
@@ -201,13 +201,14 @@ h3 {
 }
 
 .hero-portrait {
-  width: min(19rem, 100%);
+  width: min(17.875rem, 100%);
   aspect-ratio: 1;
   padding: 0;
   border: 0;
   border-radius: 50%;
   background: rgba(255, 253, 248, 0.82);
   box-shadow: var(--shadow);
+  transform: translateY(-10px);
 }
 
 .hero-portrait img {
