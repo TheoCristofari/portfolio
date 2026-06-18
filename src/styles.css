@@ -298,6 +298,7 @@ h3 {
 }
 
 .section--work h2 {
+  max-width: none;
   font-size: clamp(2rem, 3.75vw, 4rem);
 }
 
