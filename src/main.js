@@ -6,7 +6,7 @@ const profile = {
   location: 'Haslemere, UK',
   email: 'theo.cristofari@gmail.com',
   intro:
-    'I turn complex specialist knowledge into clear campaigns, content and channels that build authority, engagement and qualified demand.',
+    'I bring strategy, storytelling and hands-on execution together to make brands, campaigns and ideas clearer, stronger and more visible.',
   availability:
     'Currently Head of PR & Marketing at Business Expert Ltd, leading integrated marketing across four financial-services websites.',
 };
@@ -149,7 +149,7 @@ function render() {
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero__content">
           <p class="eyebrow">Marketing and Public Relations Specialist</p>
-          <h1 id="hero-title">PR Instincts. Marketing Engine.</h1>
+          <h1 id="hero-title">PR Instincts.<br />Marketing&nbsp;Engine.</h1>
           <p class="hero__intro">${profile.intro}</p>
         </div>
         <aside class="hero-aside" aria-label="Profile portrait">
