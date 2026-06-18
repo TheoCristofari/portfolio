@@ -18,6 +18,7 @@ const work = [
     year: '2021 - Present',
     status: 'Head of PR & Marketing',
     tags: ['B2B', 'Content', 'Lead Gen'],
+    image: '/business-expert-impact.png',
     summary:
       'Lead integrated marketing and PR across four financial services websites, shaping content, campaigns, social, email and lead-generation journeys.',
   },
@@ -112,7 +113,9 @@ function renderWork(filter = 'All') {
     .map(
       (item) => `
         <article class="project-card">
-          <div class="project-card__media" aria-hidden="true"></div>
+          <div class="project-card__media" aria-hidden="true">
+            ${item.image ? `<img src="${item.image}" alt="" />` : ''}
+          </div>
           <div class="project-card__body">
             <p class="project-card__brow">${item.type}</p>
             <h3>${item.title}</h3>
