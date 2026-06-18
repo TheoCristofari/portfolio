@@ -154,6 +154,10 @@ function render() {
             <span class="hero-title__line">Marketing Engine.</span>
           </h1>
           <p class="hero__intro">${profile.intro}</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#work">My Work</a>
+            <a class="button button--secondary" href="mailto:${profile.email}">Contact</a>
+          </div>
         </div>
         <aside class="hero-aside" aria-label="Profile portrait">
           <div class="hero-portrait">
@@ -167,10 +171,6 @@ function render() {
           <span>Current focus</span>
           <strong>Integrated B2B marketing for complex, trust-led sectors.</strong>
           <p>${profile.availability}</p>
-        </div>
-        <div class="hero__actions">
-          <a class="button button--primary" href="#work">View impact</a>
-          <a class="button button--secondary" href="mailto:${profile.email}">Start a conversation</a>
         </div>
       </section>
 
