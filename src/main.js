@@ -28,6 +28,7 @@ const work = [
     year: 'Ongoing',
     status: '~25k monthly views',
     tags: ['Video', 'Content', 'Growth'],
+    image: '/youtube-impact.png',
     summary:
       'Built and scaled a YouTube channel into a major acquisition route through positioning, scripts, topic planning and promotion.',
   },
