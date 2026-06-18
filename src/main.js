@@ -19,6 +19,7 @@ const work = [
     status: 'Head of PR & Marketing',
     tags: ['B2B', 'Content', 'Lead Gen'],
     image: '/business-expert-impact-card.png',
+    imageTreatment: 'zoom',
     hasLink: true,
     summary:
       'Leading Business Expert’s 360 marketing approach, spanning content strategy, PR, social, email, YouTube, UX and lead-generation journeys.',
@@ -118,7 +119,7 @@ function renderWork(filter = 'All') {
     .map(
       (item) => `
         <article class="project-card">
-          <div class="project-card__media" aria-hidden="true">
+          <div class="project-card__media ${item.imageTreatment ? `project-card__media--${item.imageTreatment}` : ''}" aria-hidden="true">
             ${item.image ? `<img src="${item.image}" alt="" />` : ''}
           </div>
           <div class="project-card__body">
