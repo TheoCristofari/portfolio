@@ -24,7 +24,7 @@ const work = [
       'Leading Business Expert’s 360 marketing approach, spanning content strategy, PR, social, email, YouTube, UX and lead-generation journeys.',
   },
   {
-    title: 'YouTube Growth Channel',
+    title: 'YouTube Channel',
     type: 'Acquisition',
     year: 'Ongoing',
     status: '~25k monthly views',
