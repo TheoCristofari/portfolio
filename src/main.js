@@ -112,14 +112,13 @@ function renderWork(filter = 'All') {
     .map(
       (item) => `
         <article class="project-card">
-          <div class="project-card__meta">
-            <span>${item.type}</span>
-            <span>${item.year}</span>
+          <div class="project-card__media" aria-hidden="true"></div>
+          <div class="project-card__body">
+            <p class="project-card__brow">${item.type}</p>
+            <h3>${item.title}</h3>
+            <p>${item.summary}</p>
           </div>
-          <h3>${item.title}</h3>
-          <p>${item.summary}</p>
           <div class="project-card__footer">
-            <span>${item.status}</span>
             <span>${item.tags.slice(0, 2).join(' / ')}</span>
           </div>
         </article>
