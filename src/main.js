@@ -68,6 +68,7 @@ const work = [
     year: 'Ongoing',
     status: 'Website redesign',
     tags: ['Design', 'Content', 'UX'],
+    image: '/aabrs-impact.png',
     summary:
       'Overseeing the redesign of AABRS, a regulated insolvency advice website.',
   },
