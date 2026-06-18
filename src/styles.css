@@ -93,16 +93,15 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(18rem, 24rem);
-  gap: clamp(1.5rem, 5vw, 4rem);
-  align-items: end;
-  min-height: calc(100vh - 4.5rem);
-  padding: clamp(4rem, 10vw, 8rem) 0 3rem;
+  grid-template-columns: minmax(0, 1fr) minmax(16rem, 20rem);
+  gap: clamp(3rem, 8vw, 7rem);
+  align-items: center;
+  min-height: min(32rem, calc(100vh - 4.5rem));
+  padding: clamp(3.5rem, 8vh, 5.5rem) 0;
 }
 
 .hero__content {
   max-width: 48rem;
-  transform: translateY(-87px);
 }
 
 .eyebrow {
@@ -127,6 +126,14 @@ h1 {
   font-size: clamp(3.2rem, 6vw, 6rem);
   line-height: 0.93;
   letter-spacing: 0;
+}
+
+h1 span {
+  display: block;
+}
+
+.hero-title__line {
+  white-space: nowrap;
 }
 
 h2 {
@@ -191,11 +198,10 @@ h3 {
   gap: 1rem;
   justify-items: center;
   align-self: center;
-  transform: translateY(-87px);
 }
 
 .hero-portrait {
-  width: min(20rem, 100%);
+  width: min(19rem, 100%);
   aspect-ratio: 1;
   padding: 0;
   border: 0;
@@ -421,7 +427,6 @@ h3 {
 
   .hero-aside {
     justify-items: start;
-    transform: none;
   }
 
   .hero-portrait {
@@ -429,11 +434,7 @@ h3 {
   }
 
   h1 {
-    max-width: 11ch;
-  }
-
-  .hero__content {
-    transform: none;
+    max-width: 100%;
   }
 
   .project-grid,
@@ -458,7 +459,11 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(3.35rem, 18vw, 4.7rem);
+    font-size: clamp(3rem, 13vw, 4.2rem);
+  }
+
+  .hero-title__line {
+    white-space: normal;
   }
 
   .section__header {
