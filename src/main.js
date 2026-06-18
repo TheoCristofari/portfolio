@@ -13,15 +13,15 @@ const profile = {
 
 const work = [
   {
-    title: 'Business Expert Ltd',
-    type: 'Marketing Strategy',
+    title: 'Business Expert',
+    type: 'STRATEGY',
     year: '2021 - Present',
     status: 'Head of PR & Marketing',
     tags: ['B2B', 'Content', 'Lead Gen'],
     image: '/business-expert-impact.png',
     hasLink: true,
     summary:
-      'Leading integrated marketing and PR across four financial services websites, shaping content, campaigns, social, email and lead-generation journeys.',
+      'Leading Business Expert’s 360 marketing approach, spanning content strategy, PR, social, email, YouTube, UX and lead-generation journeys.',
   },
   {
     title: 'YouTube Growth Channel',
