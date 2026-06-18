@@ -99,9 +99,9 @@ const principles = [
 ];
 
 const metrics = [
-  { value: '4', label: 'Financial-Services Websites Led' },
-  { value: '25,000+', label: 'Monthly YouTube Views Built' },
-  { value: '7,000+', label: 'LinkedIn Audience Grown From Zero' },
+  { value: '4', label: 'Financial Services Websites Managed' },
+  { value: '25,000+', label: 'Monthly YouTube Views' },
+  { value: '7,000+', label: 'Social Media Audience Built From Scratch' },
 ];
 
 const app = document.querySelector('#app');
