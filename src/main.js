@@ -18,7 +18,9 @@ const work = [
     year: '2021 - Present',
     status: 'Head of PR & Marketing',
     tags: ['B2B', 'Content', 'Lead Gen'],
-    image: '/business-expert-impact-card.png',
+    image: '/business-expert-impact-720.png',
+    imageSrcSet:
+      '/business-expert-impact-720.png 720w, /business-expert-impact-1080.png 1080w',
     hasLink: true,
     summary:
       'Leading Business Expert’s 360 marketing approach, spanning content strategy, PR, social, email, YouTube, UX and lead-generation journeys.',
@@ -119,7 +121,11 @@ function renderWork(filter = 'All') {
       (item) => `
         <article class="project-card">
           <div class="project-card__media" aria-hidden="true">
-            ${item.image ? `<img src="${item.image}" alt="" />` : ''}
+            ${
+              item.image
+                ? `<img src="${item.image}" ${item.imageSrcSet ? `srcset="${item.imageSrcSet}" sizes="(max-width: 860px) calc(100vw - 2rem), 361px"` : ''} alt="" />`
+                : ''
+            }
           </div>
           <div class="project-card__body">
             <p class="project-card__brow">${item.type}</p>
