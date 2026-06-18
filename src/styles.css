@@ -97,7 +97,7 @@ main {
   gap: clamp(1.5rem, 5vw, 4rem);
   align-items: end;
   min-height: calc(100vh - 4.5rem);
-  padding: clamp(4rem, 10vw, 8rem) 0 3rem;
+  padding: clamp(2rem, 5vw, 4rem) 0 3rem;
 }
 
 .hero__content {
@@ -414,7 +414,7 @@ h3 {
 
   .hero {
     min-height: auto;
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
 
   .hero-aside {
