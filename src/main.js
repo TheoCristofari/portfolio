@@ -151,21 +151,24 @@ function render() {
           <p class="eyebrow">Marketing and Public Relations Specialist</p>
           <h1 id="hero-title">PR Instincts. Marketing Engine.</h1>
           <p class="hero__intro">${profile.intro}</p>
-          <div class="hero-panel">
-            <span>Current focus</span>
-            <strong>Integrated B2B marketing for complex, trust-led sectors.</strong>
-            <p>${profile.availability}</p>
-          </div>
-          <div class="hero__actions">
-            <a class="button button--primary" href="#work">View impact</a>
-            <a class="button button--secondary" href="mailto:${profile.email}">Start a conversation</a>
-          </div>
         </div>
-        <aside class="hero-aside" aria-label="Profile and current focus">
+        <aside class="hero-aside" aria-label="Profile portrait">
           <div class="hero-portrait">
             <img src="/theo-cristofari.jpg" alt="Portrait of ${profile.name}" />
           </div>
         </aside>
+      </section>
+
+      <section class="hero-support" aria-label="Current focus and next steps">
+        <div class="hero-panel">
+          <span>Current focus</span>
+          <strong>Integrated B2B marketing for complex, trust-led sectors.</strong>
+          <p>${profile.availability}</p>
+        </div>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#work">View impact</a>
+          <a class="button button--secondary" href="mailto:${profile.email}">Start a conversation</a>
+        </div>
       </section>
 
       <section class="metrics" aria-label="Selected marketing results">
