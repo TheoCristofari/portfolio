@@ -14,7 +14,7 @@ const profile = {
 const work = [
   {
     title: 'Business Expert Ltd',
-    type: 'Current role',
+    type: 'Marketing Strategy',
     year: '2021 - Present',
     status: 'Head of PR & Marketing',
     tags: ['B2B', 'Content', 'Lead Gen'],
@@ -123,7 +123,7 @@ function renderWork(filter = 'All') {
             <p>${item.summary}</p>
           </div>
           <div class="project-card__footer">
-            <span>${item.tags.slice(0, 2).join(' / ')}</span>
+            <a href="#" aria-label="Learn more about ${item.title}">Lean More</a>
           </div>
         </article>
       `,
