@@ -53,9 +53,10 @@ const work = [
     year: 'Ongoing',
     status: 'SEO, CRO and content',
     tags: ['SEO', 'CRO', 'Lead Gen'],
+    image: '/currency-expert-impact.png',
     hasLink: true,
     summary:
-      'Designed the Currency Expert website from scratch, shaping the structure, UX, positioning and educational content for a specialist financial-services brand.',
+      'Designed the Currency Expert website from scratch, shaping the structure, UX, positioning and educational content.',
   },
   {
     title: 'CRM & Email Automation',
