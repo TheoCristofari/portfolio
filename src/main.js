@@ -18,7 +18,7 @@ const work = [
     year: '2021 - Present',
     status: 'Head of PR & Marketing',
     tags: ['B2B', 'Content', 'Lead Gen'],
-    image: '/business-expert-impact.png',
+    image: '/business-expert-impact-card.png',
     hasLink: true,
     summary:
       'Leading Business Expert’s 360 marketing approach, spanning content strategy, PR, social, email, YouTube, UX and lead-generation journeys.',
