@@ -63,6 +63,15 @@ const work = [
       'Designed the Currency Expert website from scratch, shaping the structure, UX, positioning and educational content.',
   },
   {
+    title: 'AABRS',
+    type: 'Design & Content',
+    year: 'Ongoing',
+    status: 'Website redesign',
+    tags: ['Design', 'Content', 'UX'],
+    summary:
+      'Overseeing the redesign of AABRS, a regulated insolvency advice website.',
+  },
+  {
     title: 'CRM & Email Automation',
     type: 'Lifecycle',
     year: 'Ongoing',
