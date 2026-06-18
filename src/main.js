@@ -48,14 +48,14 @@ const work = [
       'Developed clear content themes and publishing rhythms that improved reach, traffic and qualified engagement.',
   },
   {
-    title: 'Currency Expert Lifecycle',
-    type: 'Website marketing',
+    title: 'Currency Expert',
+    type: 'STRATEGY',
     year: 'Ongoing',
     status: 'SEO, CRO and content',
     tags: ['SEO', 'CRO', 'Lead Gen'],
     hasLink: true,
     summary:
-      'Oversaw positioning, website optimisation, educational assets and product promotion for a specialist financial-services brand.',
+      'Designed the Currency Expert website from scratch, shaping the structure, UX, positioning and educational content for a specialist financial-services brand.',
   },
   {
     title: 'CRM & Email Automation',
