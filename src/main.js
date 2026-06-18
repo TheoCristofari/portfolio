@@ -60,13 +60,13 @@ const work = [
       'Built segmentation and automation workflows to improve lead nurturing, campaign visibility and follow-up performance.',
   },
   {
-    title: 'Public Stakeholder Comms',
-    type: 'Previous experience',
-    year: '2015 - 2020',
-    status: 'PR and reputation',
-    tags: ['PR', 'Stakeholders', 'Messaging'],
+    title: 'Paid Search Lead Engine',
+    type: 'Performance marketing',
+    year: 'Ongoing',
+    status: 'Campaign execution',
+    tags: ['Paid Media', 'Lead Gen', 'CRO'],
     summary:
-      'Led communications for high-visibility public projects, translating technical, regulatory and sensitive topics into clear narratives.',
+      'Planned, launched and refined paid-search campaigns that connect high-intent audiences with clearer landing pages and stronger conversion paths.',
   },
 ];
 
@@ -191,7 +191,7 @@ function render() {
       <section class="section section--work" id="work" aria-labelledby="work-title">
         <div class="section__header">
           <p class="eyebrow">MARKETING</p>
-          <h2 id="work-title">Turning Complexity into Demand</h2>
+          <h2 id="work-title">Turning Complexity into Demand.</h2>
         </div>
         <div class="project-grid" id="project-grid">
           ${renderWork()}
