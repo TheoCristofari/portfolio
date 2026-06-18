@@ -199,7 +199,7 @@ function render() {
       <section class="section section--work" id="work" aria-labelledby="work-title">
         <div class="section__header">
           <p class="eyebrow">MARKETING</p>
-          <h2 id="work-title">Turning Complexity into Demand.</h2>
+          <h2 id="work-title">Turning Expertise into Demand.</h2>
         </div>
         <div class="project-grid" id="project-grid">
           ${renderWork()}
