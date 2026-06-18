@@ -19,6 +19,7 @@ const work = [
     status: 'Head of PR & Marketing',
     tags: ['B2B', 'Content', 'Lead Gen'],
     image: '/business-expert-impact.png',
+    hasLink: true,
     summary:
       'Leading integrated marketing and PR across four financial services websites, shaping content, campaigns, social, email and lead-generation journeys.',
   },
@@ -29,6 +30,7 @@ const work = [
     status: '~25k monthly views',
     tags: ['Video', 'Content', 'Growth'],
     image: '/youtube-impact.png',
+    hasLink: true,
     summary:
       'Built and scaled a YouTube channel into a major acquisition route through positioning, scripts, topic planning and promotion.',
   },
@@ -38,6 +40,7 @@ const work = [
     year: 'Ongoing',
     status: '0 to 7,000+ followers',
     tags: ['LinkedIn', 'Thought Leadership', 'Growth'],
+    hasLink: true,
     summary:
       'Developed clear content themes and publishing rhythms that improved reach, traffic and qualified engagement.',
   },
@@ -47,6 +50,7 @@ const work = [
     year: 'Ongoing',
     status: 'SEO, CRO and content',
     tags: ['SEO', 'CRO', 'Lead Gen'],
+    hasLink: true,
     summary:
       'Oversaw positioning, website optimisation, educational assets and product promotion for a specialist financial-services brand.',
   },
@@ -123,7 +127,11 @@ function renderWork(filter = 'All') {
             <p>${item.summary}</p>
           </div>
           <div class="project-card__footer">
-            <a href="#" aria-label="Learn more about ${item.title}">Lean More</a>
+            ${
+              item.hasLink
+                ? `<a href="#" aria-label="Check out ${item.title}">CHECK IT OUT</a>`
+                : ''
+            }
           </div>
         </article>
       `,
