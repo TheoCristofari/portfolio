@@ -37,11 +37,12 @@ const work = [
       'Built and scaled a YouTube channel into a major acquisition route through positioning, scripts, topic planning and promotion.',
   },
   {
-    title: 'LinkedIn Audience Build',
-    type: 'Social strategy',
+    title: 'LinkedIn Audience',
+    type: 'SOCIAL MEDIA',
     year: 'Ongoing',
     status: '0 to 7,000+ followers',
     tags: ['LinkedIn', 'Thought Leadership', 'Growth'],
+    image: '/linkedin-audience-impact.png',
     hasLink: true,
     summary:
       'Developed clear content themes and publishing rhythms that improved reach, traffic and qualified engagement.',
