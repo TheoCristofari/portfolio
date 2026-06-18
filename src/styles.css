@@ -389,7 +389,7 @@ h3 {
   color: var(--accent-dark);
 }
 
-.project-card p,
+.project-card p:not(.project-card__brow),
 .principle p {
   color: var(--muted);
   line-height: 1.6;
