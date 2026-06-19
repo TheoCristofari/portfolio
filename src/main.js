@@ -92,7 +92,7 @@ const work = [
       'Overseeing SEO, AEO and content actualisation, leading the UX and conversion efforts, overseeing the production of motion design didactic video content.',
   },
   {
-    title: 'Save the Pub / 124 Pints',
+    title: 'Save the Pub',
     type: 'CAMPAIGN',
     year: '2021',
     status: 'PR campaign',
