@@ -22,6 +22,7 @@ const work = [
     imageSrcSet:
       '/business-expert-card-native-1x.png 1x, /business-expert-card-native-2x.png 2x',
     hasLink: true,
+    url: 'https://www.businessexpert.co.uk/',
     summary:
       'Leading Business Expert’s 360 marketing approach, spanning content strategy, PR, social, email, YouTube, UX and lead-generation journeys.',
   },
@@ -33,6 +34,7 @@ const work = [
     tags: ['Video', 'Content', 'Growth'],
     image: '/youtube-impact.png',
     hasLink: true,
+    url: 'https://www.youtube.com/@BusinessExpertOfficial/videos',
     summary:
       'Built and scaled a YouTube channel into a major acquisition route through positioning, scripts, topic planning and promotion.',
   },
@@ -46,6 +48,7 @@ const work = [
     imageSrcSet:
       '/linkedin-audience-card-native-1x.png 1x, /linkedin-audience-card-native-2x.png 2x',
     hasLink: true,
+    url: 'https://www.linkedin.com/company/business-expert/',
     summary:
       'Developed clear content themes and publishing rhythms that improved reach, traffic and qualified engagement.',
   },
@@ -59,6 +62,7 @@ const work = [
     imageSrcSet:
       '/currency-expert-card-native-1x.png 1x, /currency-expert-card-native-2x.png 2x',
     hasLink: true,
+    url: 'https://www.currencyexpert.com/',
     summary:
       'Designed the Currency Expert website from scratch, shaping the structure, UX, positioning and educational content.',
   },
@@ -69,6 +73,8 @@ const work = [
     status: 'Website redesign',
     tags: ['Design', 'Content', 'UX'],
     image: '/aabrs-impact.png',
+    hasLink: true,
+    url: 'https://www.aabrs.com/',
     summary:
       'Overseeing the redesign of AABRS, a regulated insolvency advice website.',
   },
@@ -81,6 +87,7 @@ const work = [
     image: '/company-debt-impact-1x.png',
     imageSrcSet: '/company-debt-impact-1x.png 1x, /company-debt-impact-2x.png 2x',
     hasLink: true,
+    url: 'https://www.companydebt.com/',
     summary:
       'Overseeing SEO, AEO and content actualisation, leading the UX and conversion efforts, overseeing the production of motion design didactic video content.',
   },
@@ -93,6 +100,7 @@ const work = [
     image: '/pub-campaign-impact-1x.png',
     imageSrcSet: '/pub-campaign-impact-1x.png 1x, /pub-campaign-impact-2x.png 2x',
     hasLink: true,
+    url: 'https://www.mirror.co.uk/news/uk-news/brit-punters-need-drink-124-24116194',
     summary:
       'Launched a PR campaign for CompanyDebt, stating every Brit would need to drink 124 pints to help save the pub industry after COVID. It earned thousands of shares and hundreds of press coverages, including the Daily Star homepage.',
   },
@@ -188,7 +196,7 @@ function renderWork(filter = 'All') {
           <div class="project-card__footer">
             ${
               item.hasLink
-                ? `<a href="#" aria-label="Check out ${item.title}">CHECK IT OUT</a>`
+                ? `<a href="${item.url || '#'}" target="_blank" rel="noopener noreferrer" aria-label="Check out ${item.title}">CHECK IT OUT</a>`
                 : ''
             }
           </div>
