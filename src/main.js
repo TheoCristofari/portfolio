@@ -78,6 +78,7 @@ const work = [
     year: 'Ongoing',
     status: 'Nurture workflows',
     tags: ['CRM', 'Email', 'Automation'],
+    image: '/crm-email-impact.png',
     summary:
       'Built segmentation and automation workflows to improve lead nurturing, campaign visibility and follow-up performance.',
   },
