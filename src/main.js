@@ -196,7 +196,7 @@ function render() {
           <img src="/theocristofari-logo.png" alt="${profile.name}" />
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#work">Work</a>
+          <a href="#work">Marketing</a>
           <a href="#approach">Approach</a>
           <a href="#contact">Contact</a>
         </nav>
