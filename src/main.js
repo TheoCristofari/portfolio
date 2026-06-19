@@ -260,7 +260,7 @@ function render() {
       <section class="section section--work" id="public-relations" aria-labelledby="public-relations-title">
         <div class="section__header">
           <p class="eyebrow">PUBLIC RELATIONS</p>
-          <h2 id="public-relations-title">Shaping the Narrative</h2>
+          <h2 id="public-relations-title">Shaping the Narrative.</h2>
         </div>
         <div class="project-grid">
           ${renderCards(publicRelations)}
