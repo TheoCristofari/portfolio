@@ -97,6 +97,17 @@ const work = [
       'Launched a PR campaign for CompanyDebt, stating every Brit would need to drink 124 pints to help save the pub industry after COVID. It earned thousands of shares and hundreds of press coverages, including the Daily Star homepage.',
   },
   {
+    title: 'Banks as Dogs',
+    type: 'VIRAL',
+    year: '2023',
+    status: 'Social campaign',
+    tags: ['Social', 'Viral', 'AI'],
+    image: '/ai-banks-dogs-impact-1x.png',
+    imageSrcSet: '/ai-banks-dogs-impact-1x.png 1x, /ai-banks-dogs-impact-2x.png 2x',
+    summary:
+      'Jumped on the rising generative AI trend to picture our banking partners as dogs. Around 20,000 reactions and 1,000 reposts over two posts boosted our audience from about 300 followers to more than 7,000 almost overnight.',
+  },
+  {
     title: 'CRM & Email Automation',
     type: 'Lifecycle',
     year: 'Ongoing',
