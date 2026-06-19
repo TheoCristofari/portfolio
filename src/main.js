@@ -152,7 +152,7 @@ const publicRelations = [
     imageSrcSet:
       '/toulouse-tube-line-impact-1x.jpg 1x, /toulouse-tube-line-impact-2x.jpg 2x',
     summary:
-      'Supported the project management team for two years on communication and consultation matters.',
+      'Supported the project management team for 2 years on institutional communications, crisis management, press and media relations, consultation and social media.',
   },
   {
     title: 'Media Coverage',
