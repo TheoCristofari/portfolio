@@ -134,18 +134,21 @@ const capabilities = [
   'PR and media relations',
 ];
 
-const principles = [
+const publicRelations = [
   {
-    title: 'Make expertise legible',
-    text: 'Specialist knowledge becomes valuable when audiences can understand, trust and act on it.',
+    title: 'PR Case Study',
+    type: 'Coming Soon',
+    summary: 'Placeholder for a public relations project.',
   },
   {
-    title: 'Connect the channel mix',
-    text: 'PR, content, social, video, email and web work best when they reinforce one clear commercial story.',
+    title: 'Media Coverage',
+    type: 'Coming Soon',
+    summary: 'Placeholder for a media coverage story.',
   },
   {
-    title: 'Measure what moves',
-    text: 'Strong campaigns balance editorial judgement with visibility into traffic, engagement and conversion quality.',
+    title: 'Campaign Narrative',
+    type: 'Coming Soon',
+    summary: 'Placeholder for a campaign narrative.',
   },
 ];
 
@@ -157,9 +160,8 @@ const metrics = [
 
 const app = document.querySelector('#app');
 
-function renderWork(filter = 'All') {
-  const filtered = filter === 'All' ? work : work.filter((item) => item.tags.includes(filter));
-  return filtered
+function renderCards(items) {
+  return items
     .map(
       (item) => `
         <article class="project-card">
@@ -197,7 +199,7 @@ function render() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#work">Marketing</a>
-          <a href="#approach">Approach</a>
+          <a href="#public-relations">Public Relations</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
@@ -251,7 +253,17 @@ function render() {
           <h2 id="work-title">Turning Expertise into Demand.</h2>
         </div>
         <div class="project-grid" id="project-grid">
-          ${renderWork()}
+          ${renderCards(work)}
+        </div>
+      </section>
+
+      <section class="section section--work" id="public-relations" aria-labelledby="public-relations-title">
+        <div class="section__header">
+          <p class="eyebrow">PUBLIC RELATIONS</p>
+          <h2 id="public-relations-title">Shaping the Narrative</h2>
+        </div>
+        <div class="project-grid">
+          ${renderCards(publicRelations)}
         </div>
       </section>
 
@@ -262,25 +274,6 @@ function render() {
         </div>
         <div class="capability-list">
           ${capabilities.map((item) => `<span>${item}</span>`).join('')}
-        </div>
-      </section>
-
-      <section class="section" id="approach" aria-labelledby="approach-title">
-        <div class="section__header">
-          <p class="eyebrow">Approach</p>
-          <h2 id="approach-title">How the work gets sharper.</h2>
-        </div>
-        <div class="principle-grid">
-          ${principles
-            .map(
-              (item) => `
-                <article class="principle">
-                  <h3>${item.title}</h3>
-                  <p>${item.text}</p>
-                </article>
-              `,
-            )
-            .join('')}
         </div>
       </section>
 
