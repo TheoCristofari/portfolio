@@ -84,6 +84,17 @@ const work = [
       'Overseeing SEO, AEO and content actualisation, leading the UX and conversion efforts, overseeing the production of motion design didactic video content.',
   },
   {
+    title: 'Save the Pub Campaign',
+    type: 'CAMPAIGN',
+    year: '2021',
+    status: 'PR campaign',
+    tags: ['PR', 'Campaign', 'Press'],
+    image: '/pub-campaign-impact-1x.png',
+    imageSrcSet: '/pub-campaign-impact-1x.png 1x, /pub-campaign-impact-2x.png 2x',
+    summary:
+      'Launched a PR campaign for CompanyDebt, stating every Brit would need to drink 120 pints to help save the pub industry after COVID. It earned thousands of shares and hundreds of press coverages, including the Daily Star homepage.',
+  },
+  {
     title: 'CRM & Email Automation',
     type: 'Lifecycle',
     year: 'Ongoing',
