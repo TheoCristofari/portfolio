@@ -115,26 +115,6 @@ const work = [
     summary:
       'Jumped on the rising generative AI trend to picture our banking partners as dogs. Around 20,000 reactions and 1,000 reposts over two posts boosted our audience from about 300 followers to more than 7,000 almost overnight.',
   },
-  {
-    title: 'CRM & Email Automation',
-    type: 'Lifecycle',
-    year: 'Ongoing',
-    status: 'Nurture workflows',
-    tags: ['CRM', 'Email', 'Automation'],
-    image: '/crm-email-impact-1x.jpg',
-    imageSrcSet: '/crm-email-impact-1x.jpg 1x, /crm-email-impact-2x.jpg 2x',
-    summary:
-      'Built segmentation and automation workflows to improve lead nurturing, campaign visibility and follow-up performance.',
-  },
-  {
-    title: 'Paid Search Lead Engine',
-    type: 'Performance marketing',
-    year: 'Ongoing',
-    status: 'Campaign execution',
-    tags: ['Paid Media', 'Lead Gen', 'CRO'],
-    summary:
-      'Planned, launched and refined paid-search campaigns that connect high-intent audiences with clearer landing pages and stronger conversion paths.',
-  },
 ];
 
 const capabilities = [
