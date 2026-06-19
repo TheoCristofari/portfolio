@@ -112,6 +112,8 @@ const work = [
     tags: ['Social', 'Viral', 'AI'],
     image: '/ai-banks-dogs-impact-1x.png',
     imageSrcSet: '/ai-banks-dogs-impact-1x.png 1x, /ai-banks-dogs-impact-2x.png 2x',
+    hasLink: true,
+    url: 'https://www.linkedin.com/posts/business-expert_ai-ai-midjourney-activity-7075391110017118208-dSkh?utm_source=share&utm_medium=member_desktop&rcm=ACoAABho9KIB6NcHE9oS93VUr47GFYL_KRMML3k',
     summary:
       'Jumped on the rising generative AI trend to picture our banking partners as dogs. Around 20,000 reactions and 1,000 reposts over two posts boosted our audience from about 300 followers to more than 7,000 almost overnight.',
   },
