@@ -73,6 +73,17 @@ const work = [
       'Overseeing the redesign of AABRS, a regulated insolvency advice website.',
   },
   {
+    title: 'Company Debt',
+    type: 'CONTENT',
+    year: 'Ongoing',
+    status: 'SEO, AEO and UX',
+    tags: ['SEO', 'AEO', 'Content'],
+    image: '/company-debt-impact-1x.png',
+    imageSrcSet: '/company-debt-impact-1x.png 1x, /company-debt-impact-2x.png 2x',
+    summary:
+      'Overseeing SEO, AEO and content actualisation, leading the UX and conversion efforts, overseeing the production of motion design didactic video content.',
+  },
+  {
     title: 'CRM & Email Automation',
     type: 'Lifecycle',
     year: 'Ongoing',
