@@ -146,9 +146,13 @@ const capabilities = [
 
 const publicRelations = [
   {
-    title: 'PR Case Study',
-    type: 'Coming Soon',
-    summary: 'Placeholder for a public relations project.',
+    title: "Toulouse's 3rd Tube Line",
+    type: 'STRATEGY',
+    image: '/toulouse-tube-line-impact-1x.jpg',
+    imageSrcSet:
+      '/toulouse-tube-line-impact-1x.jpg 1x, /toulouse-tube-line-impact-2x.jpg 2x',
+    summary:
+      'Supported the project management team for two years on communication and consultation matters.',
   },
   {
     title: 'Media Coverage',
