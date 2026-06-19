@@ -285,6 +285,7 @@ function render() {
         <div>
           <p class="eyebrow">Skills</p>
           <h2 id="capabilities-title">Strategy, Planning and Content. All in One Loop.</h2>
+          <p class="section-support">I have a PR-Marketing hybrid profile, which gives me a 360 vision on all things communications when it comes to private brands, or large-scale, high stake public initiative. I am capable of covering it all, from strategy to execution.</p>
         </div>
         <div class="capability-list">
           ${capabilities.map((item) => `<span>${item}</span>`).join('')}

@@ -306,6 +306,15 @@ h3 {
   font-size: clamp(2rem, 3.75vw, 4rem);
 }
 
+.section-support {
+  max-width: 34rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
