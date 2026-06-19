@@ -225,7 +225,7 @@ function render() {
       <section class="hero-support" aria-label="Current focus and next steps">
         <div class="hero-panel">
           <span>Current focus</span>
-          <strong>360 Marketing Strategy for Trust-Led Sectors</strong>
+          <strong>360 Marketing for Trust-Led Sectors</strong>
           <p>${profile.availability}</p>
         </div>
       </section>

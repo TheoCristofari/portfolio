@@ -245,6 +245,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.hero-panel span {
+  color: var(--accent-dark);
+}
+
 .hero-panel strong {
   display: block;
   margin: 1.3rem 0;
