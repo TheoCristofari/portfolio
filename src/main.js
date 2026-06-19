@@ -269,8 +269,8 @@ function render() {
 
       <section class="section split-section" aria-labelledby="capabilities-title">
         <div>
-          <p class="eyebrow">Capabilities</p>
-          <h2 id="capabilities-title">Strategy, content and channels in one loop.</h2>
+          <p class="eyebrow">Skills</p>
+          <h2 id="capabilities-title">Strategy, Planning and Content. All in One Loop.</h2>
         </div>
         <div class="capability-list">
           ${capabilities.map((item) => `<span>${item}</span>`).join('')}
@@ -279,7 +279,7 @@ function render() {
 
       <section class="contact" id="contact" aria-labelledby="contact-title">
         <p class="eyebrow">Contact</p>
-        <h2 id="contact-title">Need complex expertise turned into clearer marketing?</h2>
+        <h2 id="contact-title">So, Let's Work Together?</h2>
         <a class="button button--primary" href="mailto:${profile.email}">${profile.email}</a>
       </section>
     </main>
