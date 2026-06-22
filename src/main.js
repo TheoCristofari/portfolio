@@ -239,6 +239,16 @@ const clientLogos = [
   { src: '/eurenco-logo.png', alt: 'Eurenco' },
 ];
 
+const pressLogos = [
+  { src: '/press-investopedia-logo.webp', alt: 'Investopedia' },
+  { src: '/press-fortune-logo.webp', alt: 'Fortune' },
+  { src: '/press-telegraph-logo.webp', alt: 'The Telegraph' },
+  { src: '/press-financial-times-logo.webp', alt: 'Financial Times' },
+  { src: '/press-daily-express-logo.webp', alt: 'Daily Express' },
+  { src: '/press-guardian-logo.webp', alt: 'The Guardian' },
+  { src: '/press-bbc-logo.webp', alt: 'BBC' },
+];
+
 const metrics = [
   { value: '4', label: 'Financial Services Websites Managed' },
   { value: '25,000+', label: 'Monthly YouTube Views' },
@@ -347,6 +357,20 @@ function render() {
         </div>
         <div class="project-grid" id="project-grid">
           ${renderCards(work)}
+        </div>
+        <div class="client-logos client-logos--press" aria-labelledby="featured-in-title">
+          <p class="eyebrow" id="featured-in-title">FEATURED IN...</p>
+          <div class="client-logos__bar client-logos__bar--press">
+            ${pressLogos
+              .map(
+                (logo) => `
+                  <div class="client-logos__item">
+                    <img src="${logo.src}" alt="${logo.alt}" />
+                  </div>
+                `,
+              )
+              .join('')}
+          </div>
         </div>
       </section>
 
