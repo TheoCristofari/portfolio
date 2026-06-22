@@ -215,6 +215,15 @@ const publicRelations = [
     summary:
       'Organised, led and analysed consultation efforts around a brand-new train station near Bordeaux, France.',
   },
+  {
+    title: "Montagnes d'Avenir",
+    type: 'CONSULTATION',
+    image: '/montagnes-avenir-impact.webp',
+    imagePosition: 'center',
+    client: 'Département Haute-Garonne',
+    summary:
+      "Organised, led and analysed consultation efforts around a departmental project to help Haute-Garonne's mountain activities adapt to climate change by developing a four-season offer.",
+  },
 ];
 
 const metrics = [
@@ -233,7 +242,7 @@ function renderCards(items) {
           <div class="project-card__media" aria-hidden="true">
             ${
               item.image
-                ? `<img src="${item.image}" ${item.imageSrcSet ? `srcset="${item.imageSrcSet}"` : ''} alt="" />`
+                ? `<img src="${item.image}" ${item.imageSrcSet ? `srcset="${item.imageSrcSet}"` : ''} ${item.imagePosition ? `data-position="${item.imagePosition}"` : ''} alt="" />`
                 : ''
             }
           </div>

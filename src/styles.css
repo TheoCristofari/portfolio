@@ -391,6 +391,10 @@ h3 {
   object-position: center top;
 }
 
+.project-card__media img[data-position='center'] {
+  object-position: center;
+}
+
 .project-card__body {
   padding: 1.25rem 1.25rem 0;
 }
