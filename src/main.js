@@ -331,7 +331,7 @@ function render() {
       <section class="section section--work" id="public-relations" aria-labelledby="public-relations-title">
         <div class="section__header">
           <p class="eyebrow">PUBLIC RELATIONS</p>
-          <h2 id="public-relations-title">Shaping Information Into Narrative</h2>
+          <h2 id="public-relations-title">Shaping Information Into Narrative.</h2>
           <p class="section-support">I shape complex information into narratives that build trust, earn attention and create momentum. My experience spans media relations, public consultation, stakeholder engagement and high-stakes communications for brands and public initiatives.</p>
         </div>
         <div class="project-grid">
