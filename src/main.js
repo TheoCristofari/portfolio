@@ -172,6 +172,15 @@ const publicRelations = [
     summary:
       'Lead the communications and consultations around Revel\'s town centre\'s revitalisation, within the framework of the "Coeur de Ville" national initiative.',
   },
+  {
+    title: 'Parc Grand Ouest',
+    type: 'CONSULTATION',
+    image: '/parc-grand-ouest-impact-1x.jpg',
+    imageSrcSet:
+      '/parc-grand-ouest-impact-1x.jpg 1x, /parc-grand-ouest-impact-2x.jpg 2x',
+    summary:
+      'Oversaw the full consultation lifecycle around the Laval economic pole project, in partnership with Vinci.',
+  },
 ];
 
 const metrics = [
