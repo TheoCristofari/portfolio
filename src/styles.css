@@ -458,12 +458,14 @@ h3 {
 }
 
 .client-logos__bar--press {
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .client-logos__bar--press img {
-  max-width: min(100%, 8rem);
-  max-height: 2.75rem;
+  width: min(100%, 11rem);
+  max-width: none;
+  height: 3.5rem;
+  max-height: none;
   filter: brightness(0) saturate(100%);
   opacity: 0.58;
 }

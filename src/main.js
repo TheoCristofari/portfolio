@@ -240,13 +240,13 @@ const clientLogos = [
 ];
 
 const pressLogos = [
-  { src: '/press-investopedia-logo.webp', alt: 'Investopedia' },
-  { src: '/press-fortune-logo.webp', alt: 'Fortune' },
-  { src: '/press-telegraph-logo.webp', alt: 'The Telegraph' },
-  { src: '/press-financial-times-logo.webp', alt: 'Financial Times' },
-  { src: '/press-daily-express-logo.webp', alt: 'Daily Express' },
-  { src: '/press-guardian-logo.webp', alt: 'The Guardian' },
   { src: '/press-bbc-logo.webp', alt: 'BBC' },
+  { src: '/press-guardian-logo.webp', alt: 'The Guardian' },
+  { src: '/press-daily-express-logo.webp', alt: 'Daily Express' },
+  { src: '/press-financial-times-logo.webp', alt: 'Financial Times' },
+  { src: '/press-telegraph-logo.webp', alt: 'The Telegraph' },
+  { src: '/press-fortune-logo.webp', alt: 'Fortune' },
+  { src: '/press-investopedia-logo.webp', alt: 'Investopedia' },
 ];
 
 const metrics = [
