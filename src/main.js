@@ -190,6 +190,15 @@ const publicRelations = [
     summary:
       'Managed consultation initiatives and led workshops for the town of Blagnac as part of a nationwide consultation launched by President Emmanuel Macron in 2019.',
   },
+  {
+    title: 'Saint-Orens de Gameville',
+    type: 'COMMUNICATIONS',
+    image: '/saint-orens-gameville-impact-1x.png',
+    imageSrcSet:
+      '/saint-orens-gameville-impact-1x.png 1x, /saint-orens-gameville-impact-2x.png 2x',
+    summary:
+      'Assisted the town of Saint-Orens with its communications and consultation efforts as part of the nationwide "Coeur de Ville" initiative.',
+  },
 ];
 
 const metrics = [
