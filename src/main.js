@@ -151,6 +151,7 @@ const publicRelations = [
     image: '/toulouse-tube-line-impact-1x.jpg',
     imageSrcSet:
       '/toulouse-tube-line-impact-1x.jpg 1x, /toulouse-tube-line-impact-2x.jpg 2x',
+    client: 'Tisséo Collectivités',
     summary:
       'Supported the project management team for 2 years on institutional communications, crisis management, press and media relations, consultation and social media.',
   },
@@ -160,6 +161,7 @@ const publicRelations = [
     image: '/paris-2024-legacy-impact-1x.jpg',
     imageSrcSet:
       '/paris-2024-legacy-impact-1x.jpg 1x, /paris-2024-legacy-impact-2x.jpg 2x',
+    client: 'Deloitte for Mairie de Paris',
     summary:
       "Lead workshop with political, non-profit and citizen stakeholders to help define the Paris 2024 Olympics' legacy after the end of the Games.",
   },
@@ -169,6 +171,7 @@ const publicRelations = [
     image: '/revel-coeur-de-ville-impact-1x.jpg',
     imageSrcSet:
       '/revel-coeur-de-ville-impact-1x.jpg 1x, /revel-coeur-de-ville-impact-2x.jpg 2x',
+    client: 'Mairie de Revel',
     summary:
       'Lead the communications and consultations around Revel\'s town centre\'s revitalisation, within the framework of the "Coeur de Ville" national initiative.',
   },
@@ -178,6 +181,7 @@ const publicRelations = [
     image: '/parc-grand-ouest-impact-1x.jpg',
     imageSrcSet:
       '/parc-grand-ouest-impact-1x.jpg 1x, /parc-grand-ouest-impact-2x.jpg 2x',
+    client: 'Laval Agglomération',
     summary:
       'Oversaw the full consultation lifecycle around the Laval economic pole project, in partnership with Vinci.',
   },
@@ -187,6 +191,7 @@ const publicRelations = [
     image: '/grand-debat-national-impact-1x.jpg',
     imageSrcSet:
       '/grand-debat-national-impact-1x.jpg 1x, /grand-debat-national-impact-2x.jpg 2x',
+    client: 'Mairie de Blagnac',
     summary:
       'Managed consultation initiatives and led workshops for the town of Blagnac as part of a nationwide consultation launched by President Emmanuel Macron in 2019.',
   },
@@ -196,6 +201,7 @@ const publicRelations = [
     image: '/saint-orens-gameville-impact-1x.png',
     imageSrcSet:
       '/saint-orens-gameville-impact-1x.png 1x, /saint-orens-gameville-impact-2x.png 2x',
+    client: 'Mairie de Saint-Orens',
     summary:
       'Assisted the town of Saint-Orens with its communications and consultation efforts as part of the nationwide "Coeur de Ville" initiative.',
   },
@@ -205,6 +211,7 @@ const publicRelations = [
     image: '/halte-ferroviaire-bouscat-impact-1x.jpg',
     imageSrcSet:
       '/halte-ferroviaire-bouscat-impact-1x.jpg 1x, /halte-ferroviaire-bouscat-impact-2x.jpg 2x',
+    client: 'SNCF Réseau',
     summary:
       'Organised, led and analysed consultation efforts around a brand-new train station near Bordeaux, France.',
   },
@@ -236,6 +243,11 @@ function renderCards(items) {
             <p>${item.summary}</p>
           </div>
           <div class="project-card__footer">
+            ${
+              item.client
+                ? `<span class="project-card__client"><span>Client</span><strong>${item.client}</strong></span>`
+                : ''
+            }
             ${
               item.hasLink
                 ? `<a href="${item.url || '#'}" target="_blank" rel="noopener noreferrer" aria-label="Check out ${item.title}">CHECK IT OUT</a>`

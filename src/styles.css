@@ -423,6 +423,25 @@ h3 {
   text-align: left;
 }
 
+.project-card__client {
+  display: grid;
+  gap: 0.35rem;
+  text-transform: none;
+}
+
+.project-card__client span {
+  color: var(--accent-dark);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.project-card__client strong {
+  color: var(--ink);
+  font-size: 0.95rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
 .split-section {
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
