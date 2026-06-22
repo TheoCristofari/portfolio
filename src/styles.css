@@ -446,6 +446,39 @@ h3 {
   text-transform: none;
 }
 
+.client-logos {
+  width: 100%;
+  margin-top: clamp(3rem, 6vw, 4.5rem);
+}
+
+.client-logos__bar {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  width: 100%;
+  margin-top: 1.25rem;
+  padding: 1.25rem 1rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 253, 248, 0.55);
+}
+
+.client-logos__item {
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  height: 5.5rem;
+  padding: 0.75rem;
+}
+
+.client-logos__item img {
+  display: block;
+  width: auto;
+  max-width: min(100%, 9rem);
+  height: auto;
+  max-height: 3.75rem;
+  object-fit: contain;
+}
+
 .split-section {
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
@@ -556,5 +589,9 @@ h3 {
 
   .contact h2 {
     white-space: normal;
+  }
+
+  .client-logos__bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

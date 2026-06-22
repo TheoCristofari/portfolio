@@ -226,6 +226,19 @@ const publicRelations = [
   },
 ];
 
+const clientLogos = [
+  { src: '/tisseo-collectivites-logo.png', alt: 'Tisséo Collectivités' },
+  { src: '/toulouse-metropole-logo.png', alt: 'Toulouse Métropole' },
+  { src: '/sncf-reseau-logo.png', alt: 'SNCF Réseau' },
+  { src: '/saint-orens-logo.png', alt: 'Saint-Orens de Gameville' },
+  { src: '/mairie-revel-logo.png', alt: 'Ville de Revel' },
+  { src: '/airbus-logo.png', alt: 'Airbus' },
+  { src: '/haute-garonne-logo.png', alt: 'Conseil départemental de la Haute-Garonne' },
+  { src: '/laval-agglomeration-logo.png', alt: 'Laval Agglomération' },
+  { src: '/ville-lanton-logo.png', alt: 'Ville de Lanton' },
+  { src: '/eurenco-logo.png', alt: 'Eurenco' },
+];
+
 const metrics = [
   { value: '4', label: 'Financial Services Websites Managed' },
   { value: '25,000+', label: 'Monthly YouTube Views' },
@@ -345,6 +358,20 @@ function render() {
         </div>
         <div class="project-grid">
           ${renderCards(publicRelations)}
+        </div>
+        <div class="client-logos" aria-labelledby="more-clients-title">
+          <p class="eyebrow" id="more-clients-title">AND MORE...</p>
+          <div class="client-logos__bar">
+            ${clientLogos
+              .map(
+                (logo) => `
+                  <div class="client-logos__item">
+                    <img src="${logo.src}" alt="${logo.alt}" />
+                  </div>
+                `,
+              )
+              .join('')}
+          </div>
         </div>
       </section>
 
