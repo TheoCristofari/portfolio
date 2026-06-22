@@ -265,6 +265,7 @@ function render() {
         <div class="section__header">
           <p class="eyebrow">MARKETING</p>
           <h2 id="work-title">Turning Expertise into Demand.</h2>
+          <p class="section-support">I turn specialist knowledge into clear positioning, campaigns and content that build authority, attract the right audience and generate demand. My strength is connecting strategy, messaging, channels and execution into one coherent growth engine.</p>
         </div>
         <div class="project-grid" id="project-grid">
           ${renderCards(work)}
