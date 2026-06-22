@@ -267,7 +267,7 @@ function renderCards(items) {
           <div class="project-card__footer">
             ${
               item.client
-                ? `<span class="project-card__client"><span>Client</span><strong>${item.client}</strong></span>`
+                ? `<span class="project-card__client">Client: ${item.client}</span>`
                 : ''
             }
             ${
