@@ -462,9 +462,9 @@ h3 {
 }
 
 .client-logos__bar--press img {
-  width: min(100%, 11rem);
+  width: min(100%, 9.5rem);
   max-width: none;
-  height: 3.5rem;
+  height: 2.5rem;
   max-height: none;
   filter: brightness(0) saturate(100%);
   opacity: 0.58;
