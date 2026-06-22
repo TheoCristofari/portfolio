@@ -315,6 +315,11 @@ h3 {
   line-height: 1.65;
 }
 
+.section--work .section-support {
+  width: 100%;
+  max-width: none;
+}
+
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
