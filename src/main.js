@@ -181,6 +181,15 @@ const publicRelations = [
     summary:
       'Oversaw the full consultation lifecycle around the Laval economic pole project, in partnership with Vinci.',
   },
+  {
+    title: 'Le Grand Débat National',
+    type: 'CONSULTATION',
+    image: '/grand-debat-national-impact-1x.jpg',
+    imageSrcSet:
+      '/grand-debat-national-impact-1x.jpg 1x, /grand-debat-national-impact-2x.jpg 2x',
+    summary:
+      'Managed consultation initiatives and led workshops for the town of Blagnac as part of a nationwide consultation launched by President Emmanuel Macron in 2019.',
+  },
 ];
 
 const metrics = [
