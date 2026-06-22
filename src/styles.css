@@ -454,7 +454,8 @@ h3 {
 }
 
 .contact h2 {
-  max-width: 14ch;
+  max-width: none;
+  white-space: nowrap;
 }
 
 @media (max-width: 860px) {
@@ -523,5 +524,9 @@ h3 {
 
   .button {
     width: 100%;
+  }
+
+  .contact h2 {
+    white-space: normal;
   }
 }
