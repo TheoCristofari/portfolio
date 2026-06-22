@@ -199,6 +199,15 @@ const publicRelations = [
     summary:
       'Assisted the town of Saint-Orens with its communications and consultation efforts as part of the nationwide "Coeur de Ville" initiative.',
   },
+  {
+    title: 'Halte Ferroviaire Bouscat',
+    type: 'CONSULTATION',
+    image: '/halte-ferroviaire-bouscat-impact-1x.jpg',
+    imageSrcSet:
+      '/halte-ferroviaire-bouscat-impact-1x.jpg 1x, /halte-ferroviaire-bouscat-impact-2x.jpg 2x',
+    summary:
+      'Organised, led and analysed consultation efforts around a brand-new train station near Bordeaux, France.',
+  },
 ];
 
 const metrics = [
