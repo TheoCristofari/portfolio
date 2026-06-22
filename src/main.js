@@ -164,9 +164,13 @@ const publicRelations = [
       "Lead workshop with political, non-profit and citizen stakeholders to help define the Paris 2024 Olympics' legacy after the end of the Games.",
   },
   {
-    title: 'Campaign Narrative',
-    type: 'Coming Soon',
-    summary: 'Placeholder for a campaign narrative.',
+    title: 'Revel - Coeur de Ville',
+    type: 'PUBLIC RELATIONS',
+    image: '/revel-coeur-de-ville-impact-1x.jpg',
+    imageSrcSet:
+      '/revel-coeur-de-ville-impact-1x.jpg 1x, /revel-coeur-de-ville-impact-2x.jpg 2x',
+    summary:
+      'Lead the communications and consultations around Revel\'s town centre\'s revitalisation, within the framework of the "Coeur de Ville" national initiative.',
   },
 ];
 
