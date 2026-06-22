@@ -155,9 +155,13 @@ const publicRelations = [
       'Supported the project management team for 2 years on institutional communications, crisis management, press and media relations, consultation and social media.',
   },
   {
-    title: 'Media Coverage',
-    type: 'Coming Soon',
-    summary: 'Placeholder for a media coverage story.',
+    title: '2024 Olympics Legacy',
+    type: 'CONSULTATION',
+    image: '/paris-2024-legacy-impact-1x.jpg',
+    imageSrcSet:
+      '/paris-2024-legacy-impact-1x.jpg 1x, /paris-2024-legacy-impact-2x.jpg 2x',
+    summary:
+      "Lead workshop with political, non-profit and citizen stakeholders to help define the Paris 2024 Olympics' legacy after the end of the Games.",
   },
   {
     title: 'Campaign Narrative',
@@ -276,6 +280,7 @@ function render() {
         <div class="section__header">
           <p class="eyebrow">PUBLIC RELATIONS</p>
           <h2 id="public-relations-title">Shaping Information Into Narrative</h2>
+          <p class="section-support">I shape complex information into narratives that build trust, earn attention and create momentum. My experience spans media relations, public consultation, stakeholder engagement and high-stakes communications for brands and public initiatives.</p>
         </div>
         <div class="project-grid">
           ${renderCards(publicRelations)}
