@@ -624,8 +624,10 @@ h3 {
 
 @media (max-width: 620px) {
   .site-header__inner {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
+    width: 100%;
+    padding: 1rem 1.25rem;
   }
 
   nav {
