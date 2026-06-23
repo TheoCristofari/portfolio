@@ -411,6 +411,7 @@ function render() {
       <section class="contact" id="contact" aria-labelledby="contact-title">
         <p class="eyebrow">Contact</p>
         <h2 id="contact-title">So, Let's Work Together?</h2>
+        <p class="contact__support">For any PR and marketing need you may have, drop me an email.</p>
         <a class="button button--primary" href="mailto:${profile.email}">${profile.email}</a>
       </section>
     </main>
