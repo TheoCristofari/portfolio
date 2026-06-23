@@ -458,7 +458,7 @@ h3 {
 }
 
 .client-logos__bar--press {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .client-logos__bar--press img {
@@ -466,8 +466,8 @@ h3 {
   max-width: none;
   height: 2.5rem;
   max-height: none;
-  filter: brightness(0) saturate(100%);
-  opacity: 0.58;
+  filter: grayscale(1);
+  opacity: 0.62;
 }
 
 .split-section {

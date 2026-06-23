@@ -240,13 +240,15 @@ const clientLogos = [
 ];
 
 const pressLogos = [
-  { src: '/press-bbc-logo.webp', alt: 'BBC' },
-  { src: '/press-guardian-logo.webp', alt: 'The Guardian' },
-  { src: '/press-daily-express-logo.webp', alt: 'Daily Express' },
-  { src: '/press-financial-times-logo.webp', alt: 'Financial Times' },
-  { src: '/press-telegraph-logo.webp', alt: 'The Telegraph' },
-  { src: '/press-fortune-logo.webp', alt: 'Fortune' },
-  { src: '/press-investopedia-logo.webp', alt: 'Investopedia' },
+  { src: '/press-mens-health-logo.png', alt: "Men's Health" },
+  { src: '/press-evening-standard-logo.png', alt: 'London Evening Standard' },
+  { src: '/press-daily-mirror-logo.png', alt: 'Daily Mirror' },
+  { src: '/press-fortune-logo.png', alt: 'Fortune' },
+  { src: '/press-telegraph-logo.png', alt: 'The Telegraph' },
+  { src: '/press-financial-times-logo.png', alt: 'Financial Times' },
+  { src: '/press-daily-express-logo.png', alt: 'Daily Express' },
+  { src: '/press-guardian-logo.png', alt: 'The Guardian' },
+  { src: '/press-bbc-logo.png', alt: 'BBC' },
 ];
 
 const metrics = [
