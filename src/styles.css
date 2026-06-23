@@ -540,23 +540,21 @@ h3 {
 
 .site-footer__links {
   display: flex;
-  gap: 0.65rem;
+  align-items: center;
+  gap: 1rem;
 }
 
 .site-footer__link {
   display: grid;
   place-items: center;
-  width: 2.75rem;
-  aspect-ratio: 1;
+  width: 1.5rem;
+  height: 1.5rem;
   color: var(--paper);
-  border: 1px solid rgba(247, 244, 237, 0.38);
-  border-radius: 50%;
 }
 
 .site-footer__link:hover {
   color: white;
-  border-color: white;
-  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-1px);
 }
 
 .site-footer__link:focus-visible {
@@ -565,13 +563,18 @@ h3 {
 }
 
 .site-footer__link svg {
-  width: 1.15rem;
-  height: 1.15rem;
+  width: 1.35rem;
+  height: 1.35rem;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2;
+}
+
+.site-footer__link .site-footer__linkedin-icon {
+  fill: currentColor;
+  stroke: none;
 }
 
 @media (max-width: 860px) {
