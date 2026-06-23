@@ -299,7 +299,15 @@ function render() {
         <a class="brand" href="#top" aria-label="${profile.name} home">
           <img src="/theocristofari-logo.png" alt="${profile.name}" />
         </a>
-        <nav aria-label="Primary navigation">
+        <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu" title="Open menu">
+          <svg class="nav-toggle__menu" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+          <svg class="nav-toggle__close" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18"></path>
+          </svg>
+        </button>
+        <nav id="primary-navigation" aria-label="Primary navigation">
           <a href="#work">Marketing</a>
           <a href="#public-relations">Public Relations</a>
           <a href="#contact">Contact</a>
@@ -441,3 +449,28 @@ function render() {
 }
 
 render();
+
+const navToggle = document.querySelector('.nav-toggle');
+const primaryNavigation = document.querySelector('#primary-navigation');
+
+function setNavigationOpen(isOpen) {
+  navToggle.setAttribute('aria-expanded', String(isOpen));
+  navToggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+  navToggle.setAttribute('title', isOpen ? 'Close menu' : 'Open menu');
+  primaryNavigation.classList.toggle('is-open', isOpen);
+}
+
+navToggle.addEventListener('click', () => {
+  setNavigationOpen(navToggle.getAttribute('aria-expanded') !== 'true');
+});
+
+primaryNavigation.querySelectorAll('a').forEach((link) => {
+  link.addEventListener('click', () => setNavigationOpen(false));
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    setNavigationOpen(false);
+    navToggle.focus();
+  }
+});
