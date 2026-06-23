@@ -246,6 +246,7 @@ const pressLogos = [
   { src: '/press-daily-express-logo.png', alt: 'Daily Express' },
   { src: '/press-guardian-logo.png', alt: 'The Guardian' },
   { src: '/press-bbc-logo.png', alt: 'BBC' },
+  { src: '/press-metro-logo.webp', alt: 'Metro' },
 ];
 
 const metrics = [
