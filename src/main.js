@@ -5,6 +5,7 @@ const profile = {
   role: 'B2B marketing specialist',
   location: 'Haslemere, UK',
   email: 'theo.cristofari@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/th%C3%A9o-cristofari/',
   intro:
     'I bring strategy, storytelling and hands-on execution together to make brands, campaigns and ideas clearer, stronger and more visible.',
   availability:
@@ -415,6 +416,27 @@ function render() {
         <a class="button button--primary" href="mailto:${profile.email}">${profile.email}</a>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <strong class="site-footer__name">${profile.name}</strong>
+        <div class="site-footer__links" aria-label="Contact links">
+          <a class="site-footer__link" href="mailto:${profile.email}" aria-label="Email ${profile.name}" title="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+          </a>
+          <a class="site-footer__link" href="${profile.linkedin}" target="_blank" rel="noopener noreferrer" aria-label="${profile.name} on LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect width="4" height="12" x="2" y="9"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
   `;
 
 }

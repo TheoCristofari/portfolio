@@ -518,6 +518,62 @@ h3 {
   line-height: 1.6;
 }
 
+.site-footer {
+  color: var(--paper);
+  background: var(--ink);
+}
+
+.site-footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: min(1120px, 100% - 2rem);
+  margin: 0 auto;
+  padding: 2.25rem 0;
+}
+
+.site-footer__name {
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.site-footer__links {
+  display: flex;
+  gap: 0.65rem;
+}
+
+.site-footer__link {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  aspect-ratio: 1;
+  color: var(--paper);
+  border: 1px solid rgba(247, 244, 237, 0.38);
+  border-radius: 50%;
+}
+
+.site-footer__link:hover {
+  color: white;
+  border-color: white;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.site-footer__link:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 3px;
+}
+
+.site-footer__link svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
 @media (max-width: 860px) {
   .hero,
   .hero-support,
