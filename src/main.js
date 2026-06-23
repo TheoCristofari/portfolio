@@ -25,7 +25,7 @@ const work = [
     hasLink: true,
     url: 'https://www.businessexpert.co.uk/',
     summary:
-      'Leading Business Expert’s 360 marketing approach, spanning content strategy, PR, social, email, YouTube, UX and lead-generation journeys.',
+      'Lead Business Expert’s integrated marketing strategy across content, PR, social, email, YouTube, UX and lead generation.',
   },
   {
     title: 'YouTube Channel',
@@ -37,7 +37,7 @@ const work = [
     hasLink: true,
     url: 'https://www.youtube.com/@BusinessExpertOfficial/videos',
     summary:
-      'Built and scaled a YouTube channel into a major acquisition route through positioning, scripts, topic planning and promotion.',
+      'Built and scaled the channel to 25,000+ monthly views through audience positioning, editorial planning, scripting and promotion.',
   },
   {
     title: 'LinkedIn Audience',
@@ -51,7 +51,7 @@ const work = [
     hasLink: true,
     url: 'https://www.linkedin.com/company/business-expert/',
     summary:
-      'Developed clear content themes and publishing rhythms that improved reach, traffic and qualified engagement.',
+      'Built a 7,000+ follower audience from scratch through a consistent editorial strategy focused on reach, traffic and qualified engagement.',
   },
   {
     title: 'Currency Expert',
@@ -65,7 +65,7 @@ const work = [
     hasLink: true,
     url: 'https://www.currencyexpert.com/',
     summary:
-      'Designed the Currency Expert website from scratch, shaping the structure, UX, positioning and educational content.',
+      'Led the creation of Currency Expert from the ground up, defining its positioning, information architecture, UX and educational content.',
   },
   {
     title: 'AABRS',
@@ -77,7 +77,7 @@ const work = [
     hasLink: true,
     url: 'https://www.aabrs.com/',
     summary:
-      'Overseeing the redesign of AABRS, a regulated insolvency advice website.',
+      'Lead the redesign of AABRS, improving its positioning, content structure, user journeys and conversion experience.',
   },
   {
     title: 'Company Debt',
@@ -90,7 +90,7 @@ const work = [
     hasLink: true,
     url: 'https://www.companydebt.com/',
     summary:
-      'Overseeing SEO, AEO and content actualisation, leading the UX and conversion efforts, overseeing the production of motion design didactic video content.',
+      'Lead SEO, AEO, content updates, UX and conversion optimisation, alongside the production of explanatory animated videos.',
   },
   {
     title: 'Save the Pub',
@@ -103,7 +103,7 @@ const work = [
     hasLink: true,
     url: 'https://www.mirror.co.uk/news/uk-news/brit-punters-need-drink-124-24116194',
     summary:
-      'Launched a PR campaign for CompanyDebt, stating every Brit would need to drink 124 pints to help save the pub industry after COVID. It earned thousands of shares and hundreds of press coverages, including the Daily Star homepage.',
+      'Created a post-lockdown PR campaign built around the finding that every Brit would need to drink 124 pints to help save the pub industry. It generated thousands of shares and hundreds of pieces of media coverage, including the Daily Star front page.',
   },
   {
     title: 'Banks as Dogs',
@@ -116,7 +116,7 @@ const work = [
     hasLink: true,
     url: 'https://www.linkedin.com/posts/business-expert_ai-ai-midjourney-activity-7075391110017118208-dSkh?utm_source=share&utm_medium=member_desktop&rcm=ACoAABho9KIB6NcHE9oS93VUr47GFYL_KRMML3k',
     summary:
-      'Jumped on the rising generative AI trend to picture our banking partners as dogs. Around 20,000 reactions and 1,000 reposts over two posts boosted our audience from about 300 followers to more than 7,000 almost overnight.',
+      'Used the emerging generative AI trend to reimagine UK banks as dog breeds. Two posts generated around 20,000 reactions and 1,000 reposts, helping grow the audience from roughly 300 to more than 7,000 followers.',
   },
 ];
 
@@ -143,14 +143,14 @@ const capabilities = [
 
 const publicRelations = [
   {
-    title: "Toulouse's 3rd Tube Line",
+    title: "Toulouse's 3rd Metro Line",
     type: 'STRATEGY',
     image: '/toulouse-tube-line-impact-1x.jpg',
     imageSrcSet:
       '/toulouse-tube-line-impact-1x.jpg 1x, /toulouse-tube-line-impact-2x.jpg 2x',
     client: 'Tisséo Collectivités',
     summary:
-      'Supported the project management team for 2 years on institutional communications, crisis management, press and media relations, consultation and social media.',
+      'Advised the project team for two years on institutional communications, crisis management, media relations, public consultation and social media.',
   },
   {
     title: '2024 Olympics Legacy',
@@ -160,7 +160,7 @@ const publicRelations = [
       '/paris-2024-legacy-impact-1x.jpg 1x, /paris-2024-legacy-impact-2x.jpg 2x',
     client: 'Deloitte for Mairie de Paris',
     summary:
-      "Lead workshop with political, non-profit and citizen stakeholders to help define the Paris 2024 Olympics' legacy after the end of the Games.",
+      'Led workshops with political, nonprofit and citizen stakeholders to help define the post-Games legacy of the Paris 2024 Olympics.',
   },
   {
     title: 'Revel - Coeur de Ville',
@@ -170,7 +170,7 @@ const publicRelations = [
       '/revel-coeur-de-ville-impact-1x.jpg 1x, /revel-coeur-de-ville-impact-2x.jpg 2x',
     client: 'Mairie de Revel',
     summary:
-      'Lead the communications and consultations around Revel\'s town centre\'s revitalisation, within the framework of the "Coeur de Ville" national initiative.',
+      'Led communications and public consultation for the revitalisation of Revel town centre under the national Coeur de Ville programme.',
   },
   {
     title: 'Parc Grand Ouest',
@@ -180,7 +180,7 @@ const publicRelations = [
       '/parc-grand-ouest-impact-1x.jpg 1x, /parc-grand-ouest-impact-2x.jpg 2x',
     client: 'Laval Agglomération',
     summary:
-      'Oversaw the full consultation lifecycle around the Laval economic pole project, in partnership with Vinci.',
+      'Managed the full public consultation programme for Laval’s Parc Grand Ouest economic development project, in partnership with VINCI.',
   },
   {
     title: 'Le Grand Débat National',
@@ -190,7 +190,7 @@ const publicRelations = [
       '/grand-debat-national-impact-1x.jpg 1x, /grand-debat-national-impact-2x.jpg 2x',
     client: 'Mairie de Blagnac',
     summary:
-      'Managed consultation initiatives and led workshops for the town of Blagnac as part of a nationwide consultation launched by President Emmanuel Macron in 2019.',
+      'Managed Blagnac’s contribution to the 2019 Grand Débat National, organising and facilitating public workshops and consolidating participant feedback.',
   },
   {
     title: 'Saint-Orens de Gameville',
@@ -200,7 +200,7 @@ const publicRelations = [
       '/saint-orens-gameville-impact-1x.png 1x, /saint-orens-gameville-impact-2x.png 2x',
     client: 'Mairie de Saint-Orens',
     summary:
-      'Assisted the town of Saint-Orens with its communications and consultation efforts as part of the nationwide "Coeur de Ville" initiative.',
+      'Supported Saint-Orens in developing communications and public consultation for its town-centre regeneration programme.',
   },
   {
     title: 'Halte Ferroviaire Bouscat',
@@ -210,7 +210,7 @@ const publicRelations = [
       '/halte-ferroviaire-bouscat-impact-1x.jpg 1x, /halte-ferroviaire-bouscat-impact-2x.jpg 2x',
     client: 'SNCF Réseau',
     summary:
-      'Organised, led and analysed consultation efforts around a brand-new train station near Bordeaux, France.',
+      'Designed, facilitated and analysed the public consultation for a new railway station in Le Bouscat, within the Bordeaux metropolitan area.',
   },
   {
     title: "Montagnes d'Avenir",
@@ -219,7 +219,7 @@ const publicRelations = [
     imagePosition: 'center',
     client: 'Département Haute-Garonne',
     summary:
-      "Organised, led and analysed consultation efforts around a departmental project to help Haute-Garonne's mountain activities adapt to climate change by developing a four-season offer.",
+      'Designed, facilitated and analysed consultation for a departmental strategy helping Haute-Garonne’s mountain economy adapt to climate change through year-round tourism.',
   },
 ];
 
